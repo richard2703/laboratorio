@@ -1,11 +1,16 @@
 body {
   width: 100%;
   height: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
 }
 
 html {
   width: 100%;
   height: 100%;
+}
+
+footer{
+  background-color: #019AAC;
 }
 
 div {
@@ -16,8 +21,9 @@ div {
 .navbar {
   border: 0;
   z-index: 9999;
-  letter-spacing: 4px;
-  background-color: #019AAC;
+  /* letter-spacing: 4px; */
+  background-color: #019AAC !important;
+  flex-wrap: wrap;
 }
 
 .navbar-brand>img {
@@ -27,20 +33,10 @@ div {
   width: auto;
 }
 
-.navbar .nav>li>a {
-  line-height: 50px;
-}
-
-.navbar-header h1 {
-  letter-spacing: 1px;
-  color: black !important;
-  font-family: 'Lobster Two', cursive;
-}
-
 .navbar li a,
 .navbar {
-  color: black !important;
-  font-size: 12px;
+  color: rgb(0, 0, 0) !important;
+  /* font-size: 12px; */
   transition: all 0.6s 0s;
 }
 
@@ -57,4 +53,9 @@ div {
 
 .footer{
   background-color: #019AAC;
+}
+
+.alinia{
+  text-align: end;
+
 }
