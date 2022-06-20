@@ -74,28 +74,28 @@
 
     {{-- <!-- footer  --> --}}
     <footer class="row text-center text-lg-start text-muted">
-        <div class="d-flex align-items-start mb-3" style="height: 100px;">
-            <div class="col">One of three columns</div>
-            <div class="col">One of three columns</div>
-            <div class="col">One of three columns</div>
-        </div>
-        <div class="d-flex align-items-center mb-3" style="height: 100px;">
-            <div class="col">One of three columns</div>
-            <div class="col">One of three columns</div>
-            <div class="col">One of three columns</div>
-        </div>
-        <div class="d-flex align-items-end  mb-3" style="height: 100px;">
-            <div class="col">One of three columns</div>
-            <div class="col">One of three columns</div>
-            <div class="col">One of three columns</div>
-        </div>
-        <!-- Copyright -->
-        <section>
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2021 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <div class="col">¿Tienes Dudas?
+            <div>
+                <div class=""><i class="fas fa-phone-alt"></i> Teléfono: 01(33)3285-1992</div>
+                <div class="">sucursal 1</div>
+                <div class="">sucursal 1</div>
             </div>
-        </section>
+        </div>
+
+        <div class="col">Sucursales
+            <div class="">sucursal 1</div>
+            <div class="">sucursal 1</div>
+            <div class="">sucursal 1</div>
+            <div class="">sucursal 1</div>
+        </div>
+
+
+
+        <div class="col-12 text-center p-4">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+
 
         <!-- Copyright -->
     </footer>
