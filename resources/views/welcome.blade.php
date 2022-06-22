@@ -11,10 +11,15 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
-    </style>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+</style>
 
 
 </head>
@@ -64,7 +69,7 @@
 
     {{-- <!-- contenido  --> --}}
 
-    <section class="row text-center text-lg-start bg-light text-muted mt-3">
+    <section class="row text-center text-lg-start bg-light  mt-3">
         <div class="d-flex align-items-start bg-light mb-3" style="height: 100px;">
             <div class="col">Contenido</div>
 
@@ -73,20 +78,73 @@
     {{-- <!-- contenido END --> --}}
 
     {{-- <!-- footer  --> --}}
-    <footer class="row text-center text-lg-start text-muted">
-        <div class="col">¿Tienes Dudas?
+    <footer class="row text-center text-lg-start ">
+        <div class="col">
+            <h3>¿Tienes Dudas?</h3>
             <div>
-                <div class=""><i class="fas fa-phone-alt"></i> Teléfono: 01(33)3285-1992</div>
-                <div class="">sucursal 1</div>
-                <div class="">sucursal 1</div>
+                <div class="">
+                    <h5><i class="fas fa-phone-alt"></i> Teléfono: </h5>
+                    (33) 3693-5986
+                </div>
+                <div class="">
+                    <p>
+                    <h5 style="display: inline-block; margin-right: 30px;">
+                        <i class="far fa-clock"></i> Horarios:
+                    </h5> <br>
+                    Lunes a Viernes 8 am a 6 pm <br>
+                    Lunes a Viernes 8 am a 6 pm
+                    </p>
+                </div>
+                <div class="">
+                    <h5 style="display: inline-block; margin-right: 30px;">
+                        <i class="far fa-envelope"></i> Correo:
+                    </h5> <br>
+                    <p> atencionaclientes@laboratorioprevida.com </p>
+                </div>
+                <div class="">
+                    <h5 style="display: inline-block; margin-right: 30px;">
+                        <i class="fa-solid fa-globe"></i> Redes:
+                    </h5> <br>
+                    <p>
+                        <a href="https://www.facebook.com/previda.laboratorio"><i
+                                class="fa-brands fa-facebook-square"></i>
+                            Facebook</i>
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="col">Sucursales
-            <div class="">sucursal 1</div>
-            <div class="">sucursal 1</div>
-            <div class="">sucursal 1</div>
-            <div class="">sucursal 1</div>
+        <div class="col">
+            <h3>Sucursales</h3>
+            <div class="">
+                <h5 style="display: inline-block; margin-right: 30px;">
+                    <i class='fa-solid fa-location-dot'></i><b> Santa Maria</b>
+                    <br>
+                    Bahia de todos los Santos No. 2759, Col. Parques de Santa Maria, Tlaquepaque, Mexico
+                    <br>
+                    <a href="https://g.page/previda-laboratorio?share">Ver en mapa</a>
+                </h5>
+            </div>
+            <div class="">
+                <h5 style="display: inline-block; margin-right: 30px;">
+                    <i class='fa-solid fa-location-dot'></i><b> Santa Maria</b>
+                    <br>
+                    Bahia de todos los Santos No. 2759, Col. Parques de Santa Maria, Tlaquepaque, Mexico
+                    <br>
+                    <a href="https://g.page/previda-laboratorio?share">Ver en mapa</a>
+                </h5>
+            </div>
+            <div class="">
+                <h5 style="display: inline-block; margin-right: 30px;">
+                    <i class='fa-solid fa-location-dot'></i><b> Santa Maria</b>
+                    <br>
+                    Bahia de todos los Santos No. 2759, Col. Parques de Santa Maria, Tlaquepaque, Mexico
+                    <br>
+                    <a href="https://g.page/previda-laboratorio?share">Ver en mapa</a>
+                </h5>
+            </div>
+
         </div>
 
 
@@ -106,6 +164,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
         integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
     </script>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
 </body>
 
