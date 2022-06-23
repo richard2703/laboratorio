@@ -14,20 +14,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
-
-
-<style>
-</style>
-
 
 </head>
 
 <body class="container-fluid">
     {{-- <!-- Navbar --> --}}
-    <nav class="row navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="row navbar navbar-expand-lg  ">
         <div class="container-fluid">
             <div class="col">
                 <div class="row d-flex">
@@ -35,10 +31,10 @@
                         <a class="navbar-brand" href="#">Navbar</a>
                     </div>
                     <div class="col alinia">
-                        <button class="navbar-toggler float-end " type="button" data-mdb-toggle="collapse"
+                        <button class="navbar-toggler float-end sinmarco " type="button" data-mdb-toggle="collapse"
                             data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fas fa-bars"></i>
+                            <i class="fas fa-bars sinmarco" style="color:white;"></i>
                         </button>
                     </div>
                 </div>
@@ -70,8 +66,8 @@
 
     {{-- <!-- contenido  --> --}}
 
-    <section class="row text-center text-lg-start bg-light  mt-3">
-        <div class="d-flex align-items-start bg-light mb-3" style="height: 100px;">
+    <section class="row text-center text-lg-start contenido">
+        <div class="d-flex align-items-start mb-3 " style="height: 100px;">
             <div class="col">Contenido</div>
 
         </div>
@@ -79,71 +75,87 @@
     {{-- <!-- contenido END --> --}}
 
     {{-- <!-- footer  --> --}}
-    <footer class="row text-center text-lg-start ">
-        <div class="col">
+    <footer class="row text-center text-md-start ">
+        <div class="col-12 col-md-6">
             <h3>¿Tienes Dudas?</h3>
             <div>
                 <div class="">
-                    <h5><i class="fas fa-phone-alt"></i> Teléfono: </h5>
-                    (33) 3693-5986
-                </div>
-                <div class="">
+                    <p class="titulo">
+                        <i class="fas fa-phone-alt"></i> Teléfono:
+                    </p>
                     <p>
-                    <h5 style="display: inline-block; margin-right: 30px;">
-                        <i class="far fa-clock"></i> Horarios:
-                    </h5> <br>
-                    Lunes a Viernes 8 am a 6 pm <br>
-                    Lunes a Viernes 8 am a 6 pm
+                        <span class="textoD">
+                            (33) 3693-5986
+                        </span>
                     </p>
                 </div>
                 <div class="">
-                    <h5 style="display: inline-block; margin-right: 30px;">
-                        <i class="far fa-envelope"></i> Correo:
-                    </h5> <br>
-                    <p> atencionaclientes@laboratorioprevida.com </p>
+                    <p class="titulo">
+                        <i class="far fa-clock"></i> Horarios:
+                    </p>
+                    <p>
+                        <span class="textoD"> Lunes a Viernes 8 am a 6 pm <br>
+                            Lunes a Viernes 8 am a 6 pm</span>
+                    </p>
                 </div>
                 <div class="">
-                    <h5 style="display: inline-block; margin-right: 30px;">
-                        <i class="fa-solid fa-globe"></i> Redes:
-                    </h5> <br>
+                    <p class="titulo">
+                        <i class="far fa-envelope"></i> Correo:
+                    </p>
                     <p>
-                        <a href="https://www.facebook.com/previda.laboratorio"><i
-                                class="fa-brands fa-facebook-square"></i>
-                            Facebook</i>
+                        <span class="textoD"> atencionaclientes@laboratorioprevida.com</span>
+                    </p>
+                </div>
+                <div class="">
+                    <p class="titulo">
+                        <i class="fa-solid fa-globe"></i> Redes:
+                    </p>
+                    <p>
+                        <a href="https://www.facebook.com/previda.laboratorio">
+                            <img src="{{ asset('img/logos/faceBlanco.png') }}" alt="facebook" width="50">
                         </a>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="col">
+        <div class="col-12 col-md-6">
             <h3>Sucursales</h3>
             <div class="">
-                <h5 style="display: inline-block; margin-right: 30px;">
-                    <i class='fa-solid fa-location-dot'></i><b> Santa Maria</b>
+                <p class="titulo">
+                    <i class='fa-solid fa-location-dot'></i> Santa Maria
+                </p>
+                <p>
+                    <span class="textoD">
+                        Bahia de todos los Santos No. 2759, Col. Parques de Santa María, Tlaquepaque, Mexico
+                    </span>
                     <br>
-                    Bahia de todos los Santos No. 2759, Col. Parques de Santa Maria, Tlaquepaque, Mexico
-                    <br>
-                    <a href="https://g.page/previda-laboratorio?share">Ver en mapa</a>
-                </h5>
+                    <a href="https://g.page/previda-laboratorio?share" class="linkF">Ver en mapa</a>
+                </p>
             </div>
             <div class="">
-                <h5 style="display: inline-block; margin-right: 30px;">
-                    <i class='fa-solid fa-location-dot'></i><b> Santa Maria</b>
+                <p class="titulo">
+                    <i class='fa-solid fa-location-dot'></i> Santa Maria
+                </p>
+                <p>
+                    <span class="textoD">
+                        Bahia de todos los Santos No. 2759, Col. Parques de Santa María, Tlaquepaque, Mexico
+                    </span>
                     <br>
-                    Bahia de todos los Santos No. 2759, Col. Parques de Santa Maria, Tlaquepaque, Mexico
-                    <br>
-                    <a href="https://g.page/previda-laboratorio?share">Ver en mapa</a>
-                </h5>
+                    <a href="https://g.page/previda-laboratorio?share" class="linkF">Ver en mapa</a>
+                </p>
             </div>
             <div class="">
-                <h5 style="display: inline-block; margin-right: 30px;">
-                    <i class='fa-solid fa-location-dot'></i><b> Santa Maria</b>
+                <p class="titulo">
+                    <i class='fa-solid fa-location-dot'></i> Santa Maria
+                </p>
+                <p>
+                    <span class="textoD">
+                        Bahia de todos los Santos No. 2759, Col. Parques de Santa María, Tlaquepaque, Mexico
+                    </span>
                     <br>
-                    Bahia de todos los Santos No. 2759, Col. Parques de Santa Maria, Tlaquepaque, Mexico
-                    <br>
-                    <a href="https://g.page/previda-laboratorio?share">Ver en mapa</a>
-                </h5>
+                    <a href="https://g.page/previda-laboratorio?share" class="linkF">Ver en mapa</a>
+                </p>
             </div>
 
         </div>

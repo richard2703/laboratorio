@@ -1,6 +1,8 @@
 body {
   width: 100%;
   height: 100%;
+  font-family: 'Poppins';  
+  color: black ;
 }
 
 html {
@@ -8,11 +10,21 @@ html {
   height: 100%;
 }
 
-/* =====NAVIGATION====== */
+footer{
+  background-color: #019AAC;
+}
+
+/* div {
+  border: #212529 1px solid;
+} */
+
+/* =====NAVBAR====== */
 .navbar {
   border: 0;
   z-index: 9999;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
+  background-color: #019AAC !important;
+  flex-wrap: wrap;
 }
 
 .navbar-brand>img {
@@ -22,20 +34,10 @@ html {
   width: auto;
 }
 
-.navbar .nav>li>a {
-  line-height: 50px;
-}
-
-.navbar-header h1 {
-  letter-spacing: 1px;
-  color: black !important;
-  font-family: 'Lobster Two', cursive;
-}
-
 .navbar li a,
 .navbar {
-  color: black !important;
-  font-size: 12px;
+  color: rgb(0, 0, 0) !important;
+  /* font-size: 12px; */
   transition: all 0.6s 0s;
 }
 
@@ -47,4 +49,14 @@ html {
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
   color: red !important;
+}
+/* =====FOOTER====== */
+
+.footer{
+  background-color: #019AAC;
+}
+
+.alinia{
+  text-align: end;
+
 }
