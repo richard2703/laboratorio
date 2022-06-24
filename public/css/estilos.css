@@ -1,5 +1,76 @@
 /* Slider */
+.carousel__contenedor {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
 
+
+ .carousel__anterior,
+    .carousel__siguiente {
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border: none;
+        top: calc(50% - 35px);
+        cursor: pointer;
+        line-height: 30px;
+        text-align: center;
+        background: none;
+        color: rgb(172, 12, 12);
+        opacity: 50%;
+    }
+
+    .carousel__anterior:hover,
+    .carousel__siguiente:hover {
+        opacity: 100%;
+    }
+
+    .carousel__anterior {
+        left: -45px;
+    }
+    
+    .carousel__siguiente {
+        right: -45px;
+    }
+
+    .carousel__element {
+        text-align: center;
+    }
+    
+    .carousel-indicators .glider-dot {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background: rgb(248, 3, 3);
+        opacity: .2;
+        border-radius: 0;
+    }
+    
+    .carousel-indicators .glider-dot:hover {
+        opacity: .5;
+    }
+    
+    .carousel-indicators .glider-dot.active {
+        opacity: 1;
+    }
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+
+.contenedor-principal {
+    margin: 30px 0;
+}
+
+.peliculas-recomendadas {
+    margin-top: 70px;
+}
+
+.peliculas-recomendadas .contenedor-principal {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
 
  /* Slider */
 
