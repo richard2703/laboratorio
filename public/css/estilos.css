@@ -75,6 +75,10 @@
  /* Slider */
 
  .contenido{
-	/* background-color: #fffff2; */
-	background-color: wheat;
+	background-color: #fffff2;
+	/* background-color: wheat; */
   }
+
+h2{
+    color: #013E7D;
+}

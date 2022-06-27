@@ -97,8 +97,50 @@
         </div> --}}
     </section>
     <section class="row d-flex">
-        <div class="col contenido">
-            contenido
+        <div class="col contenido p-3  text-center">
+            <div class="text-center ">
+                <H2>Servicios</H2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
+                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
+                    <div class="card-body">
+                        <h4>Nombre servicio</h4>
+                        <p class="card-text">Aqui va el texto de cada servicio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
+                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
+                    <div class="card-body">
+                        <p class="card-text">Aqui va el texto de cada servicio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
+                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
+                    <div class="card-body">
+                        <p class="card-text">Aqui va el texto de cada servicio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
+                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
+                    <div class="card-body">
+                        <p class="card-text">Aqui va el texto de cada servicio
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
+                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
+                    <div class="card-body">
+                        <p class="card-text">Aqui va el texto de cada servicio
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </section>
 @endsection
