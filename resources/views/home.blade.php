@@ -2,7 +2,7 @@
 
 @section('contenido')
     <section class="row d-flex ">
-        <div class="col bannerSliders p-0 d-none d-md-block ">
+        <div class="col bannerSliders p-0  d-md-block ">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -14,10 +14,15 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{{ asset('/img/banners/hor1.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('/img/banners/banner1.png') }}" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
+                    {{-- <div class="carousel-item active">
+                        <img src="{{ asset('/img/banners/hor1.jpg') }}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div> --}}
                     <div class="carousel-item">
                         <a href="{{ url('ayuda/subir') }}">
                             <img src="{{ asset('/img/banners/hor2.jpg') }}" class="d-block w-100" alt="...">
@@ -46,7 +51,7 @@
             </div>
         </div>
         <!--banners para movil-->
-        <div class="col bannerSliders p-0 d-block d-md-none">
+        {{-- <div class="col bannerSliders p-0 d-block d-md-none">
             <div id="carouselMovil" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselMovil" data-bs-slide-to="0" class="active"
@@ -89,7 +94,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
+        </div> --}}
     </section>
     <section class="row d-flex">
         <div class="col contenido">
