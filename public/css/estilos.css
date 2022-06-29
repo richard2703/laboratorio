@@ -75,10 +75,15 @@
  /* Slider */
 
  .contenido{
-	background-color: #fffff2;
+	/* background-color: #fffff2; */
 	/* background-color: wheat; */
   }
 
 h2{
     color: #013E7D;
+}
+.estilocard{
+    background-color:transparent !important;
+    border:0px;
+    align-items: center;
 }

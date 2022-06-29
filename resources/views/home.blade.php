@@ -102,45 +102,77 @@
                 <H2>Servicios</H2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
-                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
-                    <div class="card-body">
-                        <h4>Nombre servicio</h4>
-                        <p class="card-text">Aqui va el texto de cada servicio
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2 estilocard">
+                    <img src="{{ asset('img/iconos/blood-test.png') }}" alt="sangre " width="150">
+                    <div class="card-body ">
+                        <h5 class="card-title" style="color:#013E7D">Hematología</h5>
+                        <p class="card-text">Es el estudio científico de la sangre y de los tejidos hematopoyéticos que la
+                            conforman. En ésta sección se efectúa la Citometría Hemática además de diversas pruebas para
+                            evaluare los valores de los distintos componentes de la sangre.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
-                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
-                    <div class="card-body">
-                        <p class="card-text">Aqui va el texto de cada servicio
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2 estilocard">
+                    <img src="{{ asset('img/iconos/blood-test.png') }}" alt="sangre " width="150">
+                    <div class="card-body ">
+                        <h5 class="card-title" style="color:#013E7D">Hematología</h5>
+                        <p class="card-text">Es el estudio científico de la sangre y de los tejidos hematopoyéticos que la
+                            conforman. En ésta sección se efectúa la Citometría Hemática además de diversas pruebas para
+                            evaluare los valores de los distintos componentes de la sangre.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
-                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
-                    <div class="card-body">
-                        <p class="card-text">Aqui va el texto de cada servicio
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2 estilocard">
+                    <img src="{{ asset('img/iconos/blood-test.png') }}" alt="sangre " width="150">
+                    <div class="card-body ">
+                        <h5 class="card-title" style="color:#013E7D">Hematología</h5>
+                        <p class="card-text">Es el estudio científico de la sangre y de los tejidos hematopoyéticos que la
+                            conforman. En ésta sección se efectúa la Citometría Hemática además de diversas pruebas para
+                            evaluare los valores de los distintos componentes de la sangre.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
-                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
-                    <div class="card-body">
-                        <p class="card-text">Aqui va el texto de cada servicio
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2 estilocard">
+                    <img src="{{ asset('img/iconos/blood-test.png') }}" alt="sangre " width="150">
+                    <div class="card-body ">
+                        <h5 class="card-title" style="color:#013E7D">Hematología</h5>
+                        <p class="card-text">Es el estudio científico de la sangre y de los tejidos hematopoyéticos que la
+                            conforman. En ésta sección se efectúa la Citometría Hemática además de diversas pruebas para
+                            evaluare los valores de los distintos componentes de la sangre.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2">
-                    <img src="{{ asset('img/logos/facenegro.png') }}" alt="facebook" width="250">
-                    <div class="card-body">
-                        <p class="card-text">Aqui va el texto de cada servicio
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2 estilocard">
+                    <img src="{{ asset('img/iconos/blood-test.png') }}" alt="sangre " width="150">
+                    <div class="card-body ">
+                        <h5 class="card-title" style="color:#013E7D">Hematología</h5>
+                        <p class="card-text">Es el estudio científico de la sangre y de los tejidos hematopoyéticos que la
+                            conforman. En ésta sección se efectúa la Citometría Hemática además de diversas pruebas para
+                            evaluare los valores de los distintos componentes de la sangre.
                         </p>
                     </div>
                 </div>
-
-
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 card d-flex m-2 estilocard">
+                    <img src="{{ asset('img/iconos/blood-test.png') }}" alt="sangre " width="150">
+                    <div class="card-body ">
+                        <h5 class="card-title" style="color:#013E7D">Hematología</h5>
+                        <p class="card-text">Es el estudio científico de la sangre y de los tejidos hematopoyéticos que la
+                            conforman. En ésta sección se efectúa la Citometría Hemática además de diversas pruebas para
+                            evaluare los valores de los distintos componentes de la sangre.
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+    <section class="row d-flex">
+        <div class="col-12 p-0 contenido d-md-block text-center">
+
+            <img src="{{ asset('/img/banners/banner1.png') }}" class="d-block w-100" style="width: 100%"
+                alt="...">
+            <p>
+                Tomas a domicilio
+            </p>
         </div>
     </section>
 @endsection
