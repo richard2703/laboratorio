@@ -175,6 +175,16 @@
             </p>
         </div>
     </section>
+    <section class="row d-flex">
+        <div class="col contenido p-3  text-center">
+            <div class="text-center ">
+                <H2>Paquetes</H2>
+            </div>
+            <div class="row justify-content-center">
+
+            </div>
+        </div>
+    </section>
 @endsection
 
 <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
