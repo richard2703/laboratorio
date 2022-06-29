@@ -77,7 +77,7 @@
 
     {{-- <!-- contenido  --> --}}
 
-    <section class="contenido">
+    <section class="">
         @yield('contenido')
 
     </section>

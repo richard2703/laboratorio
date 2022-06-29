@@ -76,7 +76,7 @@
 
  .contenido{
 	/* background-color: #fffff2; */
-	/* background-color: wheat; */
+	background-color: #013E7D;
   }
 
 h2{
@@ -87,3 +87,10 @@ h2{
     border:0px;
     align-items: center;
 }
+.promociones{
+    color:white;
+}
+
+/* test card */
+
+

@@ -97,7 +97,7 @@
         </div> --}}
     </section>
     <section class="row d-flex">
-        <div class="col contenido p-3  text-center">
+        <div class="col p-3  text-center">
             <div class="text-center ">
                 <H2>Servicios</H2>
             </div>
@@ -166,7 +166,7 @@
         </div>
     </section>
     <section class="row d-flex">
-        <div class="col-12 p-0 contenido d-md-block text-center">
+        <div class="col-12 p-0 d-md-block text-center">
 
             <img src="{{ asset('/img/banners/banner1.png') }}" class="d-block w-100" style="width: 100%"
                 alt="...">
@@ -176,12 +176,152 @@
         </div>
     </section>
     <section class="row d-flex">
-        <div class="col contenido p-3  text-center">
+        <div class="col p-3  text-center">
             <div class="text-center ">
                 <H2>Paquetes</H2>
             </div>
             <div class="row justify-content-center">
+                <div class="card mb-3">
+                    <div class="row g-0 justify-content-center">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">!Miercoles 15% de descuento¡</h4>
+                                <p class="card-text">15 % de descuento a miembros del INAPAM y recetas medicas expedidas
+                                    por organismos gubernamentales</p>
+                                {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ asset('img/promo/viejos.jpg') }}" class="img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ asset('img/promo/viejos.jpg') }}" class="img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">!Miercoles 15% de descuento¡</h4>
+                                <p class="card-text">15 % de descuento a miembros del INAPAM y recetas medicas expedidas
+                                    por organismos gubernamentales</p>
+                                {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+                            </div>
+                        </div>
+                    </div>
 
+                    {{-- <div class="row g-0 justify-content-center">
+                        <div class="col-md-2">
+                            <img src="{{ asset('img/promo/viejos.jpg') }}" class="img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h4 class="card-title">!Miercoles 15% de descuento¡</h4>
+                                <p class="card-text">15 % de descuento a miembros del INAPAM y recetas medicas expedidas
+                                    por organismos gubernamentales</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h4 class="card-title">!Miercoles 15% de descuento¡</h4>
+                                <p class="card-text">15 % de descuento a miembros del INAPAM y recetas medicas expedidas
+                                    por organismos gubernamentales</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="{{ asset('img/promo/viejos.jpg') }}" class="img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row  d-flex">
+        <div class="p-3 contenido text-center ">
+            <div class="text-center ">
+                <H2 class="promociones">Promociones</H2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('img/promo/viejos.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">600$</h3>
+                            <h4 class="card-title">Bodas</h4>
+                            <p class="card-text">promocion para bodas, incluye:</p>
+                            <ul>
+                                <li>Biometria hematica</li>
+                                <li>Quimica sanguinia de 30 elementos</li>
+                                <li>Examen general de orina</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Valida hasta 15 de octubre del 2022</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('img/promo/viejos.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">600$</h3>
+                            <h4 class="card-title">Bodas</h4>
+                            <p class="card-text">promocion para bodas, incluye:</p>
+                            <ul>
+                                <li>Biometria hematica</li>
+                                <li>Quimica sanguinia de 30 elementos</li>
+                                <li>Examen general de orina</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Valida hasta 15 de octubre del 2022</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('img/promo/viejos.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">600$</h3>
+                            <h4 class="card-title">Bodas</h4>
+                            <p class="card-text">promocion para bodas, incluye:</p>
+                            <ul>
+                                <li>Biometria hematica</li>
+                                <li>Quimica sanguinia de 30 elementos</li>
+                                <li>Examen general de orina</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Valida hasta 15 de octubre del 2022</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('img/promo/viejos.jpg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">600$</h3>
+                            <h4 class="card-title">Bodas</h4>
+                            <p class="card-text">promocion para bodas, incluye:</p>
+                            <ul>
+                                <li>Biometria hematica</li>
+                                <li>Quimica sanguinia de 30 elementos</li>
+                                <li>Examen general de orina</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Valida hasta 15 de octubre del 2022</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row  d-flex">
+        <div class="col p-3  text-center">
+            <div class="text-center ">
+                <H2>Nosotros</H2>
             </div>
         </div>
     </section>
