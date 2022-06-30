@@ -319,9 +319,29 @@
         </div>
     </section>
     <section class="row  d-flex">
-        <div class="col p-3  text-center">
+        <div class=" p-3  text-center">
             <div class="text-center ">
                 <H2>Nosotros</H2>
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-md-4">
+                    <img src="{{ asset('img/nosotros.jpg') }}" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Nosotros</h3>
+                        <p class="card-text">nosotros somo una empresa dedicada a manejar todo el royo que se quiera poner
+                        </p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to make a type specimen book. It has 'survived not only five centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of
+                            Lorem Ipsum</p>
+                        {{-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> --}}
+                    </div>
+                </div>
             </div>
         </div>
     </section>
